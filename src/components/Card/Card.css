@@ -3,10 +3,10 @@
     flex-direction: column;
     align-items: center;
     width: 280px;
-    height: 400px;
+    height: 380px;
     background: #FFF;
     border-radius: 12px;
-    padding: 16px
+    padding: 14px
 }
 
 .card img {
@@ -19,7 +19,7 @@
     font-weight: 600;
 }
 
-.card p {
+.card-desc {
     color: rgba(28, 27, 27, 0.60);
     font-size: 14px;
     font-weight: 400;
@@ -40,4 +40,9 @@
     height: 40px;
     flex-shrink: 0;
     margin-top: auto;
+}
+.card-details{
+    color: rgba(28, 27, 27, 0.60);
+    font-size: 16px;
+    font-weight: 500;
 }

@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react'
 import './App.css'
 import Card from './components/Card/Card'
 import Cart from './components/Cart/Cart';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   const [totalCredit, setTotalCredit] = useState(0);
@@ -14,7 +16,8 @@ function App() {
   const addToSelected = (value) => {
     const isExist = selectedCourses.find(course => course.title === value.title)
     if (isExist) {
-      alert('hi miskat');
+      toast.error('You have already selected this course!', 
+      {position: 'top-center'});
     }
 
     else {
@@ -29,7 +32,8 @@ function App() {
       setSelectedCourses(courses => [...courses, selectedItem]);
     }
     else if(selectedItem){
-      alert('I miss my ex');
+      toast.error('You have exceeded credit limit', 
+      {position: 'top-center'});
       setTotalCredit(totalCredit - parseInt(selectedItem.credit));
     }
   }, [selectedItem]);
@@ -63,11 +67,11 @@ function App() {
             totalCredit={totalCredit}
             totalPrice={totalPrice}
             remaining={20-totalCredit}
-          ></Cart>
+          />
         </div>
       </div>
 
-
+      <ToastContainer/>
     </>
   )
 }
