@@ -2,8 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 2px solid red;
-    width: 320px;
+    width: 280px;
     height: 400px;
     background: #FFF;
     border-radius: 12px;
@@ -11,7 +10,7 @@
 }
 
 .card img {
-    width: 300px;
+    width: 260px;
 }
 
 .card h2 {
@@ -37,7 +36,7 @@
     border-radius: 8px;
     border: 1px solid #2F80ED;
     background: #2F80ED;
-    width: 280px;
+    width: 240px;
     height: 40px;
     flex-shrink: 0;
     margin-top: auto;

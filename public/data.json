@@ -2,65 +2,65 @@
     {
         "image": "https://i.ibb.co/7JQTPxd/Rectangle-2-2.png",
         "name": "Introduction to C Programming",
-        "description": "Learn the basics of programming with this introductory course. Covers fundamentals of coding and problem-solving.",
-        "price": "199",
-        "credit": "3"
+        "description": "Learn the basics of programming with this course. Covers basics of coding and problem-solving.",
+        "price": "15000",
+        "credit": "1"
     },
     {
         "image": "https://i.ibb.co/jH1XdJk/Rectangle-2-3.png",
         "name": "Introduction to Algorithms",
         "description": "Explore advanced data structures and algorithms. Gain essential skills for software development.",
-        "price": "249",
-        "credit": "4"
+        "price": "25000",
+        "credit": "2"
     },
     {
         "image": "https://i.ibb.co/PTgtm5g/Rectangle-2-4.png",
         "name": "Introduction to C++ for DSA",
-        "description": "Become a full-stack web developer in this intensive bootcamp. Covers front-end and back-end development.",
-        "price": "399",
-        "credit": "5"
+        "description": "Become a full-stack web developer in this bootcamp. Covers front-end and back-end development.",
+        "price": "10000",
+        "credit": "1"
     },
     {
         "image": "https://i.ibb.co/frJrHkk/Rectangle-3.png",
         "name": "Basic Data Structures",
-        "description": "Dive into the world of machine learning. Learn about supervised and unsupervised learning algorithms.",
-        "price": "299",
-        "credit": "4"
+        "description": "Dive into the world of machine learning.Learn about supervised & unsupervised learning algorithms.",
+        "price": "35000",
+        "credit": "5"
     },
     {
         "image": "https://i.ibb.co/KmyN7j2/Rectangle-2.png",
         "name": "Introduction to OOP Python",
         "description": "Master the art of designing and managing databases. Essential for database administrators.",
-        "price": "229",
-        "credit": "3"
+        "price": "19000",
+        "credit": "5"
     },
     {
         "image": "https://i.ibb.co/CBv7Fsq/Rectangle-2-5.png",
         "name": "Software Engineering",
         "description": "Protect digital assets and networks from cyber threats. Learn about security best practices.",
-        "price": "299",
-        "credit": "4"
+        "price": "23000",
+        "credit": "2"
     },
     {
         "image": "https://i.ibb.co/wdjGXnd/Rectangle-3-1.png",
         "name": "AWS, Cloud Computing",
         "description": "Create mobile apps for iOS and Android. Covers app design, development, and deployment.",
-        "price": "349",
-        "credit": "4"
+        "price": "35000",
+        "credit": "5"
     },
     {
         "image": "https://i.ibb.co/yVTLgNC/Rectangle-2-1.png",
         "name": "Database (MySQL)",
         "description": "Explore the ethical considerations of AI. Discuss the impact of AI on society.",
-        "price": "249",
-        "credit": "3"
+        "price": "19000",
+        "credit": "5"
     },
     {
         "image": "https://i.ibb.co/DLHJdv6/Rectangle-2-6.png",
         "name": "Problem-Solving Part",
         "description": "Complete a real-world software project. Apply your skills and knowledge in a practical setting.",
-        "price": "499",
-        "credit": "6"
+        "price": "23000",
+        "credit": "2"
     }
 
 ]
