@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import './App.css'
 import Card from './components/Card/Card'
+import Cart from './components/Cart/Cart';
 
 function App() {
 
@@ -14,20 +15,26 @@ function App() {
 
   return (
     <>
-      <h1 className='text-red-500 text-7xl'>Course Registration</h1>
-      <div className='card-container'>
-        {courseData.map(course => {
-          return (
-            <Card key={course.name} image={course.image}
-              name={course.name}
-              description={course.description}
-              price={course.price}
-              credit={course.credit}
-            />
-          )
-        })
-        }
+      <h1>Course Registration</h1>
+      <div className='container'>
+        <div className='card-container'>
+          {courseData.map(course => {
+            return (
+              <Card key={course.name} image={course.image}
+                name={course.name}
+                description={course.description}
+                price={course.price}
+                credit={course.credit}
+              />
+            )
+          })
+          }
+        </div>
+        <div className='cart-container'>
+          <Cart></Cart>
+        </div>
       </div>
+
 
     </>
   )
