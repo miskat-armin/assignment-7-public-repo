@@ -1,0 +1,66 @@
+[
+    {
+        "image": "../Asset/Cprogramming.png",
+        "name": "Introduction to Programming",
+        "description": "Learn the basics of programming with this introductory course. Covers fundamentals of coding and problem-solving.",
+        "price": "$199",
+        "credit": "3 credits"
+    },
+    {
+        "image": "../Asset/Algorithm.png",
+        "name": "Data Structures and Algorithms",
+        "description": "Explore advanced data structures and algorithms. Gain essential skills for software development.",
+        "price": "$249",
+        "credit": "4 credits"
+    },
+    {
+        "image": "../Asset/C++.png",
+        "name": "Web Development Bootcamp",
+        "description": "Become a full-stack web developer in this intensive bootcamp. Covers front-end and back-end development.",
+        "price": "$399",
+        "credit": "5 credits"
+    },
+    {
+        "image": "../Asset/DataStructure.png",
+        "name": "Machine Learning Fundamentals",
+        "description": "Dive into the world of machine learning. Learn about supervised and unsupervised learning algorithms.",
+        "price": "$299",
+        "credit": "4 credits"
+    },
+    {
+        "image": "../Asset/python.png",
+        "name": "Database Management Systems",
+        "description": "Master the art of designing and managing databases. Essential for database administrators.",
+        "price": "$229",
+        "credit": "3 credits"
+    },
+    {
+        "image": "../Asset/SoftwareEng.png",
+        "name": "Cybersecurity Essentials",
+        "description": "Protect digital assets and networks from cyber threats. Learn about security best practices.",
+        "price": "$299",
+        "credit": "4 credits"
+    },
+    {
+        "image": "../Asset/awsCloudComputing.png",
+        "name": "Mobile App Development",
+        "description": "Create mobile apps for iOS and Android. Covers app design, development, and deployment.",
+        "price": "$349",
+        "credit": "4 credits"
+    },
+    {
+        "image": "../Asset/mySQL.png",
+        "name": "Artificial Intelligence and Ethics",
+        "description": "Explore the ethical considerations of AI. Discuss the impact of AI on society.",
+        "price": "$249",
+        "credit": "3 credits"
+    },
+    {
+        "image": "../Asset/ProblemSolving.png",
+        "name": "Software Engineering Capstone",
+        "description": "Complete a real-world software project. Apply your skills and knowledge in a practical setting.",
+        "price": "$499",
+        "credit": "6 credits"
+    }
+
+]
