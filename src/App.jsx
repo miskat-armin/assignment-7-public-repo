@@ -17,7 +17,7 @@ function App() {
     const isExist = selectedCourses.find(course => course.title === value.title)
     if (isExist) {
       toast.error('You have already selected this course!', 
-      {position: 'top-center'});
+      {position: 'top-center', autoClose: 2000});
     }
 
     else {
@@ -33,7 +33,7 @@ function App() {
     }
     else if(selectedItem){
       toast.error('You have exceeded credit limit', 
-      {position: 'top-center'});
+      {position: 'top-center', autoClose: 2000});
       setTotalCredit(totalCredit - parseInt(selectedItem.credit));
     }
   }, [selectedItem]);

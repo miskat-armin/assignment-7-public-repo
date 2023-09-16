@@ -18,7 +18,7 @@ const Card = ({ image, name, description, price, credit, selectedHandler }) => {
                     <BiDollar size={24}/>
                     <p className='card-details'> Price: {price}</p>
                 </div>
-                <div className='flex flex-row justify-center items-center gap-1'>
+                <div className='flex flex-row justify-center items-center gap-2'>
                     <BsBook size={20}/>
                     <p className='card-details'>Credit: {credit}hr</p>
                 </div>

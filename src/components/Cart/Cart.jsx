@@ -7,7 +7,7 @@ const Cart = ({selectedCourses, totalCredit, totalPrice, remaining}) => {
     console.log(totalPrice);
     return (
         <div className="cart">
-            <p className='cart-title'>Credit Hour Remaining {remaining}hr</p>
+            <p className='cart-title'>Credit Hour Remaining {remaining} hr</p>
             <hr className='border border-1 w-[90%] my-2' />
             <h2>Course Name</h2>
             <ol>
